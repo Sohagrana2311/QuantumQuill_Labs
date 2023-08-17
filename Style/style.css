@@ -146,6 +146,69 @@ body{
     padding: 2% 2%;
     background: url(/Image/bg-img/Rectangle\ 26.png) 0% 0% no-repeat;
 }
+/* client comment section */
+.client-comment-sec{
+    margin: 15px auto;
+    width: 90%;
+    text-align: center;
+}
+.client-img-content{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.client-img{
+    background: url(/Image/bg-img/Ellipse\ 87.png) 5% 80% no-repeat;
+}
+.client-images{
+    width: 100%;
+    position: relative;
+
+}
+.img1{
+    position: absolute;
+    top: 25%;
+    left: 40%;
+}
+.img2{
+    position: absolute;
+    top: 8%;
+    left: 50%;
+}
+.img3{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+}
+.img4{
+    position: absolute;
+    top: 35%;
+    left: 15%;
+}
+.img5{
+    position: absolute;
+    top: 40%;
+    right:1%;
+}
+.img6{
+    position: absolute;
+    top: 12%;
+    left:15%;
+}
+.img7{
+    position: absolute;
+    top:20%;
+    right: 5%;
+}
+.img8{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+}
+.client-comment{
+    margin: auto;
+}
+
 /* footer section */
 .footer{
     margin: 0 auto;
