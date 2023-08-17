@@ -1,0 +1,174 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+/* header section start */
+.header{
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.company-first-name{
+    color: #FF007A;
+}
+.menu a{
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 18px;
+    color: black;
+}
+
+.menu a:hover{
+    color: #FF007A;
+}
+
+/* top banner start */
+.top-banner{
+    padding-bottom: 70px;
+    display: grid;
+    grid-template-columns: 10fr 7fr;
+    margin-left: 5%;
+    background: url(/Image/bg-img/Group\ 70.png) 0% 85% no-repeat, url(/Image/bg-img/Rectangle\ 23.png) 90% 100% no-repeat;
+
+
+}
+.top-bannner-content{
+    margin:auto 0px;
+    
+}
+.contact-btn{
+    border: none;
+    background-color: #2639ED;
+    padding: 15px 20px;
+    border-radius: 60px;
+    color: #fff;
+    margin-top: 20px;
+
+}
+.top-bannner-img{
+    margin-left: 40px;
+    padding-left: 40px;
+    background: url(/Image/bg-img/Ellipse\ 85.png) 0 -1% no-repeat;
+  
+
+}
+
+.client{
+    width: 90%;
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.client-logo img{
+    margin-right: 20px;
+}
+/* bussines idea section */
+.bussines-help{
+    display: flex;
+    margin-bottom: 10%;
+    background: url(/Image/bg-img/Rectangle\ 25.png) 3% 43% no-repeat, url(/Image/bg-img/Rectangle\ 24.png) 100% 50% no-repeat, url(/Image/bg-img/Group\ 70.png) 0% 100% no-repeat,  url(/Image/bg-img/Ellipse\ 87.png) 92% 95% no-repeat ;
+    background-size: 120px, 80%, auto, auto;
+}
+.bussines-content{
+    margin:auto 5%;
+}
+
+.total-idea{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    padding-right: 10%;
+}
+
+.single-idea{
+    padding: 80px 10px 0 10px;
+    text-align: center;
+    width: 308px;
+    height: 300px;
+    border-radius: 40px;
+    border: 1px solid #F2F2F2 ;
+    background-color: #fff;
+    box-shadow: 2px 2px 2px 2px #F2F2F2;
+}
+.frist-idea{
+    margin-top: 25%;
+}
+.fourth-idea{
+    margin-top: -25%;
+}
+.frist-idea img{
+    background-color: #F2F2F2;
+    padding: 10px;
+    border-radius: 20%;
+    
+}
+
+.second-idea img{
+    background-color: #DEFFEE;
+    padding: 10px;
+    border-radius: 20%;
+}
+.third-idea img{
+    background-color: #FFF2F8;
+    padding: 10px;
+    border-radius: 20%;
+}
+.fourth-idea img{
+    background-color: #FFF7E3;
+    padding: 10px;
+    border-radius: 20%;
+}
+
+/* video  section */
+.video-sec{
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.video-play{
+    position: relative;
+    background: url(/Image/bg-img/Ellipse\ 86.png) 98% 98% no-repeat;
+}
+/* .video-thamnail{
+   
+} */
+.play-btn{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+.video-content{
+    padding: 2% 2%;
+    background: url(/Image/bg-img/Rectangle\ 26.png) 0% 0% no-repeat;
+}
+/* footer section */
+.footer{
+    margin: 0 auto;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr 1fr;
+    grid-gap: 40px;
+}
+.company-info{
+    margin-right: 15%;
+}
+.footer-single-menu a{
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    font-size: small;
+    font-weight: bold;
+    color: black;
+
+}
+.copywrite{
+    padding: 10px 0;
+    margin-top: 40px;
+    border-top: 1px solid #F2F2F2 ;
+    text-align: center;
+}
