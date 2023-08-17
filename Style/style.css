@@ -208,6 +208,47 @@ body{
 .client-comment{
     margin: auto;
 }
+/* subscribe-section */
+.subscribe-sec{
+    padding: 10% 20px;
+    margin: 50px auto;
+    width: 90%;
+    background: url(/Image/bg-img/Rectangle\ 31.png) 96% 50% no-repeat,   url(/Image/bg-img/Group\ 73.png) 100% 0% no-repeat, url(/Image/bg-img/Rectangle\ 30.png) 50% 50% no-repeat, url(/Image/bg-img/Rectangle\ 32.png) 0% 95% no-repeat ;
+    background-size: 39%, auto, 95%, auto;
+}
+.subscribe-d-flex{
+    margin: 10px 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.newsletter{
+    margin-right: auto;
+}
+.input-sec{
+    padding-right: 200px;
+    margin-right:auto ;
+    position: relative;
+
+}
+.subscribe-email{
+    box-shadow: .5px .5px 20px #C0D8FF;
+    width: 120%;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 100px ;
+    
+}
+.subscribe-btn{
+    position: absolute;
+    top: 5px;
+    right: 125px;
+    background-color: #2639ED;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 100px ;
+}
 
 /* footer section */
 .footer{
